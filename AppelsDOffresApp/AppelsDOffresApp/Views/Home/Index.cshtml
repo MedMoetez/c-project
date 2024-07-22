@@ -1,0 +1,75 @@
+﻿@using AppelsDOffresApp.Models
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="jumbotron">
+    <div class="container">
+        <h1 class="display-3">Bienvenue sur l'application d'Appels d'Offres!</h1>
+        <p class="lead">Gérez vos appels d'offres facilement et efficacement.</p>
+        <p><a class="btn btn-primary btn-lg" href="/AO" role="button">Voir les Appels d'Offres &raquo;</a></p>
+    </div>
+</div>
+
+<div class="container">
+    <!-- Section Présentation -->
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Présentation</h2>
+            <p>Cette application vous permet de gérer les appels d'offres, d'envoyer des documents, de suivre les rappels et bien plus encore.</p>
+            <p><a class="btn btn-secondary" href="/About" role="button">En savoir plus &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Fonctionnalités principales</h2>
+            <ul>
+                <li>Gestion des appels d'offres</li>
+                <li>Envoi et gestion des documents</li>
+                <li>Suivi des rappels</li>
+                <li>Notifications et alertes</li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <h2>Statistiques</h2>
+            <ul>
+                <li>Appels d'offres actifs: @Model.ActiveTendersCount</li>
+                <li>Documents envoyés: @Model.DocumentsSentCount</li>
+                <li>Rappels en attente: @Model.PendingRemindersCount</li>
+            </ul>
+        </div>
+    </div>
+
+    <hr />
+
+    <!-- Section Navigation Rapide -->
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Appels d'Offres</h2>
+            <p>Accédez rapidement à la gestion des appels d'offres.</p>
+            <p><a class="btn btn-secondary" href="/AppelOffre" role="button">Gérer les Appels d'Offres &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Documents</h2>
+            <p>Envoyez et gérez vos documents facilement.</p>
+            <p><a class="btn btn-secondary" href="/Documents" role="button">Gérer les Documents &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Utilisateurs</h2>
+            <p>Gérez les utilisateurs et leurs rôles.</p>
+            <p><a class="btn btn-secondary" href="/Utilisateur" role="button">Gérer les Utilisateurs &raquo;</a></p>
+        </div>
+    </div>
+
+    <hr />
+
+    <!-- Section Avis ou Notifications -->
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Avis récents</h2>
+            <div class="alert alert-info" role="alert">
+                <strong>Nouvelle mise à jour :</strong> L'application a été mise à jour avec de nouvelles fonctionnalités.
+            </div>
+            <div class="alert alert-warning" role="alert">
+                <strong>Attention :</strong> N'oubliez pas d'envoyer vos documents avant la date limite.
+            </div>
+        </div>
+    </div>
+</div>

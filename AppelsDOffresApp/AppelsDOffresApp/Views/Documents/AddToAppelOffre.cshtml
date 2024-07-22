@@ -1,0 +1,35 @@
+﻿@model IEnumerable<AppelsDOffresApp.Models.AppelOffre>
+
+@{
+    ViewData["Title"] = "Add Document to Appel Offre";
+}
+
+<h1>Add Document to Appel Offre</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Numero</th>
+            <th>Nom</th>
+            <th>Date</th>
+            <th>Description</th>
+            <th>Status</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Numero</td>
+                <td>@item.Nom</td>
+                <td>@item.Date</td>
+                <td>@item.Description</td>
+                <td>@item.Status</td>
+                <td>
+                    <a asp-action="Create" asp-route-appelOffreId="@item.Id" class="btn btn-primary">Add Document</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
