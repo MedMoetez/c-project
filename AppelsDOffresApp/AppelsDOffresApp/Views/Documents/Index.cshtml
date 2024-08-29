@@ -7,30 +7,40 @@
 <h1>Documents</h1>
 
 <p>
-    <a asp-action="AddToAppelOffre" class="btn btn-primary">Add Document to Appel Offre</a>
+    <a asp-action="AddToAppelOffre" class="btn btn-primary">Add New Document</a>
 </p>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>Nom</th>
-            <th>Type</th>
-            <th>Appel Offre</th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
+@foreach (var group in Model.GroupBy(d => d.AppelOffre.Nom))
+{
+    <h2>@group.Key</h2>
+    <table class="table">
+        <thead>
             <tr>
-                <td>@item.Nom</td>
-                <td>@item.Type</td>
-                <td>@item.AppelOffre.Nom</td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a>
-                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
-                </td>
+                <th>Nom</th>
+                <th>Type</th>
+                <th>Date Limite</th>
+                <th>Download</th>
+                <th></th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @foreach (var item in group)
+            {
+                var cssClass = item.DateLimite < DateTime.Now ? "table-danger" :
+                item.DateLimite <= DateTime.Now.AddDays(7) ? "table-warning" : "table-success";
+
+                <tr class="@cssClass">
+                    <td>@item.Nom</td>
+                    <td>@item.Type</td>
+                    <td>@item.DateLimite.ToShortDateString()</td>
+                    <td>
+                        <a asp-action="Download" asp-route-id="@item.Id" class="btn btn-secondary">Download</a>
+                    </td>
+                    <td>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

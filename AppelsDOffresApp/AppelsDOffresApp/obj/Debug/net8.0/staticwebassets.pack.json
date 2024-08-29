@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\wwwroot\\js\\chat.js",
+      "PackagePath": "staticwebassets\\js\\chat.js"
+    },
+    {
       "Id": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
@@ -243,6 +247,14 @@
     {
       "Id": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\wwwroot\\uploads\\2024-NB-463668.pdf",
+      "PackagePath": "staticwebassets\\uploads\\2024-NB-463668.pdf"
+    },
+    {
+      "Id": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\wwwroot\\uploads\\CaptureAttachement.png",
+      "PackagePath": "staticwebassets\\uploads\\CaptureAttachement.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AppelsDOffresApp.Microsoft.AspNetCore.StaticWebAssets.props",

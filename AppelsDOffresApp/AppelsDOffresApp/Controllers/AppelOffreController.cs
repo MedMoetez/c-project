@@ -1,48 +1,76 @@
-﻿using AppelsDOffresApp.Data;
-using AppelsDOffresApp.Models;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
+using AppelsDOffresApp.Models;
+using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
+using AppelsDOffresApp.ViewModels;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace AppelsDOffresApp.Controllers
 {
+    [Authorize]
     public class AppelOffreController : Controller
     {
         private readonly AppDbContext _context;
+        private readonly ILogger<AppelOffreController> _logger;
+        private readonly UserManager<Utilisateur> _userManager;
 
-        public AppelOffreController(AppDbContext context)
+        public AppelOffreController(AppDbContext context, ILogger<AppelOffreController> logger, UserManager<Utilisateur> userManager)
         {
             _context = context;
+            _logger = logger;
+            _userManager = userManager;
         }
 
         // GET: AppelOffre
+        [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
-            var appelsOffres = await _context.AppelsDOffres.ToListAsync();
-            return View(appelsOffres);
+            return View(await _context.AppelsDOffres.ToListAsync());
         }
 
         // GET: AppelOffre/Create
+        [Authorize(Roles = "Admin,Gestionnaire")]
+        // GET: Create
         public IActionResult Create()
         {
+            ViewBag.Users = new SelectList(_context.Users, "Id", "UserName");
             return View();
         }
 
-        // POST: AppelOffre/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(AppelOffre appelOffre)
+        public async Task<IActionResult> Create(AppelOffreViewModel model)
         {
             if (ModelState.IsValid)
             {
+                var appelOffre = new AppelOffre
+                {
+                    Numero = model.Numero,
+                    Nom = model.Nom,
+                    Date = model.Date,
+                    Description = model.Description,
+                    Status = model.Status,
+                    AssignedUserId = model.AssignedUserId // Nullable
+                };
+
                 _context.Add(appelOffre);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(appelOffre);
+            ViewBag.Users = new SelectList(_context.Users, "Id", "UserName", model.AssignedUserId);
+            return View(model);
         }
 
+
+
+
+
         // GET: AppelOffre/Edit/5
+        [Authorize(Roles = "Admin,Gestionnaire")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -60,8 +88,9 @@ namespace AppelsDOffresApp.Controllers
 
         // POST: AppelOffre/Edit/5
         [HttpPost]
+        [Authorize(Roles = "Admin,Gestionnaire")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, AppelOffre appelOffre)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Numero,Nom,Date,Description,Status")] AppelOffre appelOffre)
         {
             if (id != appelOffre.Id)
             {
@@ -92,6 +121,7 @@ namespace AppelsDOffresApp.Controllers
         }
 
         // GET: AppelOffre/Delete/5
+        [Authorize(Roles = "Admin,Gestionnaire")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -111,15 +141,13 @@ namespace AppelsDOffresApp.Controllers
 
         // POST: AppelOffre/Delete/5
         [HttpPost, ActionName("Delete")]
+        [Authorize(Roles = "Admin,Gestionnaire")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var appelOffre = await _context.AppelsDOffres.FindAsync(id);
-            if (appelOffre != null)
-            {
-                _context.AppelsDOffres.Remove(appelOffre);
-                await _context.SaveChangesAsync();
-            }
+            _context.AppelsDOffres.Remove(appelOffre);
+            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
@@ -127,5 +155,36 @@ namespace AppelsDOffresApp.Controllers
         {
             return _context.AppelsDOffres.Any(e => e.Id == id);
         }
+
+        [Authorize(Roles = "Admin,Gestionnaire")]
+        // GET: AppelOffre/AssignTenders
+        public async Task<IActionResult> AssignTenders()
+        {
+            var tenders = await _context.AppelsDOffres.Include(a => a.AssignedUser).ToListAsync();
+            var users = await _userManager.Users.ToListAsync();
+
+            var viewModel = new AssignTendersViewModel
+            {
+                AppelsDOffres = tenders,
+                Users = users
+            };
+
+            return View(viewModel);
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> AssignTender(int tenderId, string assignedUserId)
+        {
+            var tender = await _context.AppelsDOffres.FindAsync(tenderId);
+            if (tender != null)
+            {
+                tender.AssignedUserId = assignedUserId;
+                _context.Update(tender);
+                await _context.SaveChangesAsync();
+            }
+            return RedirectToAction(nameof(AssignTenders));
+        }
+
     }
 }

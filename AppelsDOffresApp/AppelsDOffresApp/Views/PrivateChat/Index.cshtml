@@ -1,0 +1,11 @@
+﻿@model IEnumerable<AppelsDOffresApp.Models.Utilisateur>
+
+<h2>Select a User to Chat Privately</h2>
+<ul>
+    @foreach (var user in Model)
+    {
+        <li>
+            <a href="@Url.Action("PrivateChat", "PrivateChat", new { toUserId = user.Id })">@user.UserName</a>
+        </li>
+    }
+</ul>

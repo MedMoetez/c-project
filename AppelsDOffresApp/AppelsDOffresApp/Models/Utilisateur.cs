@@ -1,18 +1,27 @@
-﻿using System.Data;
+﻿using Microsoft.AspNetCore.Identity;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace AppelsDOffresApp.Models
 {
-    public class Utilisateur
+    public class Utilisateur : IdentityUser
     {
-        public int Id { get; set; }
-        public string Nom { get; set; }
-        public string Email { get; set; }
-        public string MotDePasse { get; set; }
-        public Data.Role Role { get; set; }
+        [StringLength(100)]
+        public string? Nom { get; set; }
 
         // Navigation properties
         public virtual ICollection<AppelOffre> AppelsDOffresGestionnaire { get; set; }
-        public virtual ICollection<AppelOffre> AppelsDOffresCollaborateur { get; set; }
-        public virtual ICollection<Rappel> Rappels { get; set; }
+        public virtual ICollection<ChatMessage> Messages { get; set; }
+        public string? ConnectionId { get; set; }
+        // Navigation properties for chat messages
+        public ICollection<ChatMessage> SentMessages { get; set; }
+        public ICollection<ChatMessage> ReceivedMessages { get; set; }
+        public ICollection<AppelOffre> AppelsDOffres { get; set; }
+        public Utilisateur()
+        {
+            AppelsDOffresGestionnaire = new HashSet<AppelOffre>();
+            AppelsDOffres = new HashSet<AppelOffre>();
+            Messages = new HashSet<ChatMessage>();
+        }
     }
 }

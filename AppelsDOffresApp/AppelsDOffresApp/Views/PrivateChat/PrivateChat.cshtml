@@ -1,0 +1,35 @@
+﻿@model AppelsDOffresApp.ViewModels.PrivateChatViewModel
+
+<h2>Private Chat with @Model.UserName</h2>
+
+<div id="privateChatWindow" style="padding: 10px; border: 1px solid #ccc; height: 400px; overflow-y: scroll;">
+    @foreach (var message in Model.Messages)
+    {
+        <div style="margin-bottom: 5px;">
+            <strong>@message.UserName</strong>: @message.Text <small>(@message.When.ToString("HH:mm"))</small>
+        </div>
+    }
+</div>
+
+<form id="privateMessageForm" style="margin-top: 10px;" method="post" asp-action="SendPrivateMessage">
+    @Html.AntiForgeryToken()
+    <input type="hidden" name="toUserId" value="@Model.UserId" />
+    <input type="text" id="privateMessageText" name="messageText" placeholder="Type a private message..." style="width: 80%;" />
+    <button type="submit" style="width: 18%;">Send</button>
+</form>
+
+@section Scripts {
+    <script type="text/javascript">
+        var connection = new signalR.HubConnectionBuilder().withUrl("/chathub").build();
+
+        connection.on("ReceivePrivateMessage", function (message) {
+            var privateChatWindow = document.getElementById("privateChatWindow");
+            privateChatWindow.innerHTML += "<div><strong>" + message.userName + "</strong>: " + message.text + " <small>(" + new Date(message.when).toLocaleTimeString() + ")</small></div>";
+            privateChatWindow.scrollTop = privateChatWindow.scrollHeight;
+        });
+
+        connection.start().catch(function (err) {
+            return console.error(err.toString());
+        });
+    </script>
+}

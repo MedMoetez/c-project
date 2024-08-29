@@ -1,25 +1,28 @@
-﻿using AppelsDOffresApp.Data;
+﻿using AppelsDOffresApp.ViewModels;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Xml.Linq;
 
-namespace AppelsDOffresApp.Models;
-public class Documents
+namespace AppelsDOffresApp.Models
 {
-    [Key]
-    public int Id { get; set; }
-    public string Nom { get; set; }
-    public DocumentType Type { get; set; }
+    public class Documents
+    {
+        [Key]
+        public int Id { get; set; }
 
-    [NotMapped]
-    [Required]
-    [FileExtensions(Extensions = "pdf,jpg,jpeg,png", ErrorMessage = "Please upload a valid file format (pdf, jpg, jpeg, png).")]
-    public IFormFile UploadedFile { get; set; }
-    public byte[] Contenu { get; set; }
+        [Required] // Ajouter une validation pour s'assurer que le nom est toujours rempli
+        public string Nom { get; set; }
 
-    [ForeignKey("AppelOffre")]
-    public int AppelDOffreId { get; set; }
+        [Required] 
+        public DocumentType Type { get; set; }
 
-    // Navigation property
-    public virtual AppelOffre AppelOffre { get; set; }
+        [Required] 
+        public string FilePath { get; set; }
+
+        [ForeignKey("AppelOffre")]
+        public int AppelDOffreId { get; set; }
+
+        // Navigation property
+        public virtual AppelOffre AppelOffre { get; set; }
+        public DateTime DateLimite { get; set; }
+    }
 }

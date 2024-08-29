@@ -1,0 +1,43 @@
+﻿@model AssignTendersViewModel
+
+@functions {
+    private static string GetSelectedAttribute(string userId, string assignedUserId)
+    {
+        return userId == assignedUserId ? "selected" : "";
+    }
+}
+
+<h2>Assign Tenders</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Assigned User</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var tender in Model.AppelsDOffres)
+        {
+            <tr>
+                <td>@tender.Nom</td>
+                <td>@tender.AssignedUser?.UserName ?? "Unassigned"</td>
+                <td>
+                    <form asp-action="AssignTender" method="post">
+                        <input type="hidden" name="tenderId" value="@tender.Id" />
+                        <select name="assignedUserId" class="form-control">
+                            <option value="">Select a User</option>
+                            @foreach (var user in Model.Users)
+                            {
+                                var selected = GetSelectedAttribute(user.Id, tender.AssignedUserId);
+                                <option value="@user.Id" selected>@user.UserName</option>
+                            }
+                        </select>
+                        <button type="submit" class="btn btn-primary mt-2">Assign</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

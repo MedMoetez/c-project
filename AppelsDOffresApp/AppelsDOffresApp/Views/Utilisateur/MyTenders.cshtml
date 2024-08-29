@@ -1,0 +1,23 @@
+﻿@model IEnumerable<AppelsDOffresApp.Models.AppelOffre>
+
+<h2>My Tenders</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Deadline</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var tender in Model)
+        {
+            <tr>
+                <td>@tender.Nom</td>
+                <td>@tender.Description</td>
+                <td>@tender.Date.ToString("dd/MM/yyyy")</td>
+            </tr>
+        }
+    </tbody>
+</table>

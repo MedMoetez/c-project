@@ -6,8 +6,11 @@
     <div class="container">
         <h1 class="display-3">Bienvenue sur l'application d'Appels d'Offres!</h1>
         <p class="lead">Gérez vos appels d'offres facilement et efficacement.</p>
-        <p><a class="btn btn-primary btn-lg" href="/AO" role="button">Voir les Appels d'Offres &raquo;</a></p>
     </div>
+</div>
+<div style="margin: 20px;">
+    <a class="btn btn-info" href="/PublicChat">Public Chat</a>
+    <a class="btn btn-info" href="/PrivateChat">Private Chat</a>
 </div>
 
 <div class="container">
@@ -52,13 +55,14 @@
             <p><a class="btn btn-secondary" href="/Documents" role="button">Gérer les Documents &raquo;</a></p>
         </div>
         <div class="col-md-4">
-            <h2>Utilisateurs</h2>
-            <p>Gérez les utilisateurs et leurs rôles.</p>
-            <p><a class="btn btn-secondary" href="/Utilisateur" role="button">Gérer les Utilisateurs &raquo;</a></p>
+            <h2>Gestion des Rôles</h2>
+            <p> visualisez les rôles assignés.</p>
+            <p><a class="btn btn-secondary" href="@Url.Action("MyTenders", "Utilisateur")" role="button">Voir les AO Assignés &raquo;</a></p>
         </div>
     </div>
 
     <hr />
+
 
     <!-- Section Avis ou Notifications -->
     <div class="row">
@@ -70,6 +74,25 @@
             <div class="alert alert-warning" role="alert">
                 <strong>Attention :</strong> N'oubliez pas d'envoyer vos documents avant la date limite.
             </div>
+        </div>
+    </div>
+
+    <!-- Liens de Connexion et Inscription -->
+    <div class="row">
+        <div class="col-md-12 text-center">
+            @if (User.Identity.IsAuthenticated)
+            {
+                <form asp-controller="Account" asp-action="Logout" method="post" id="logoutForm" class="form-inline">
+                    <button type="submit" class="btn btn-link">Logout</button>
+                </form>
+            }
+            else
+            {
+                <p>
+                    <a asp-controller="Account" asp-action="Login" class="btn btn-primary">Login</a>
+                    <a asp-controller="Account" asp-action="Register" class="btn btn-secondary">Register</a>
+                </p>
+            }
         </div>
     </div>
 </div>

@@ -1,7 +1,7 @@
-﻿using AppelsDOffresApp.Data;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
+﻿using AppelsDOffresApp.ViewModels;
+using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AppelsDOffresApp.Models
 {
@@ -9,31 +9,35 @@ namespace AppelsDOffresApp.Models
     {
         [Key]
         public int Id { get; set; }
+
+        [Required]
+        [StringLength(100)] // La longueur maximale du numéro est de 100 caractères
         public string Numero { get; set; }
+
+        [Required]
+        [StringLength(200)] // La longueur maximale du nom est de 200 caractères
         public string Nom { get; set; }
+
+        [Required]
         public DateTime Date { get; set; }
+
+        [Required]
+        [StringLength(1000)] // La longueur maximale de la description est de 1000 caractères
         public string Description { get; set; }
 
+        [Required]
         public AppelOffreStatus Status { get; set; }
 
-        // Navigation properties
+        // Collection de documents associée à cet Appel d'Offre
         public virtual ICollection<Documents> Documents { get; set; }
+        public string? AssignedUserId { get; set; }
+        public Utilisateur? AssignedUser { get; set; }
+
+
 
         public AppelOffre()
         {
             Documents = new HashSet<Documents>();
         }
-
-       // public virtual ICollection<Documents> Documents { get; set; }
-
-        /* public int? GestionnaireId { get; set; } // Rendre nullable
-         [ForeignKey("GestionnaireId")]
-         // Navigation properties
-         public virtual Utilisateur Gestionnaire { get; set; }
-
-         public virtual ICollection<AppelDOffreCollaborateur> Collaborateurs { get; set; }
-
-         public string DescriptionOffre { get; set; }*/
-
     }
 }

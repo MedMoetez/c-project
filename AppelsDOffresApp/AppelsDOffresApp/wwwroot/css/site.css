@@ -20,3 +20,37 @@ html {
 body {
   margin-bottom: 60px;
 }
+#chat-container {
+    max-height: 400px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.chat-message {
+    margin-bottom: 10px;
+}
+
+.timestamp {
+    font-size: 0.8em;
+    color: #888;
+}
+
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
+    transition: opacity 0.5s ease-in-out;
+}
+
+    .notification:hover {
+        opacity: 1;
+    }

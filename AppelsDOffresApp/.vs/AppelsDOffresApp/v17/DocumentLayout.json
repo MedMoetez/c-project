@@ -1,0 +1,445 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\projet\\c-project\\AppelsDOffresApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|c:\\projet\\c-project\\appelsdoffresapp\\appelsdoffresapp\\views\\privatechat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|solutionrelative:appelsdoffresapp\\views\\privatechat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|c:\\projet\\c-project\\appelsdoffresapp\\appelsdoffresapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|solutionrelative:appelsdoffresapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|c:\\projet\\c-project\\appelsdoffresapp\\appelsdoffresapp\\views\\publicchat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|solutionrelative:appelsdoffresapp\\views\\publicchat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|c:\\projet\\c-project\\appelsdoffresapp\\appelsdoffresapp\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|solutionrelative:appelsdoffresapp\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|c:\\projet\\c-project\\appelsdoffresapp\\appelsdoffresapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|solutionrelative:appelsdoffresapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|c:\\projet\\c-project\\appelsdoffresapp\\appelsdoffresapp\\controllers\\privatechatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|solutionrelative:appelsdoffresapp\\controllers\\privatechatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|c:\\projet\\c-project\\appelsdoffresapp\\appelsdoffresapp\\views\\privatechat\\privatechat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|solutionrelative:appelsdoffresapp\\views\\privatechat\\privatechat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|c:\\projet\\c-project\\appelsdoffresapp\\appelsdoffresapp\\controllers\\utilisateurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|solutionrelative:appelsdoffresapp\\controllers\\utilisateurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|c:\\projet\\c-project\\appelsdoffresapp\\appelsdoffresapp\\views\\utilisateur\\mytenders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|solutionrelative:appelsdoffresapp\\views\\utilisateur\\mytenders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Migrations\\20240829131747_INifaadeazfrzrkhjvgh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AppelsDOffresApp\\Migrations\\20240829131747_INifaadeazfrzrkhjvgh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|c:\\projet\\c-project\\appelsdoffresapp\\appelsdoffresapp\\views\\appeloffre\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|solutionrelative:appelsdoffresapp\\views\\appeloffre\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|c:\\projet\\c-project\\appelsdoffresapp\\appelsdoffresapp\\controllers\\appeloffrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|solutionrelative:appelsdoffresapp\\controllers\\appeloffrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|c:\\projet\\c-project\\appelsdoffresapp\\appelsdoffresapp\\viewmodels\\appeloffreviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|solutionrelative:appelsdoffresapp\\viewmodels\\appeloffreviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|c:\\projet\\c-project\\appelsdoffresapp\\appelsdoffresapp\\views\\appeloffre\\assigntenders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|solutionrelative:appelsdoffresapp\\views\\appeloffre\\assigntenders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|c:\\projet\\c-project\\appelsdoffresapp\\appelsdoffresapp\\views\\appeloffre\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|solutionrelative:appelsdoffresapp\\views\\appeloffre\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|c:\\projet\\c-project\\appelsdoffresapp\\appelsdoffresapp\\models\\appeloffre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|solutionrelative:appelsdoffresapp\\models\\appeloffre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Migrations\\20240829125859_INifaadeazfrzr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AppelsDOffresApp\\Migrations\\20240829125859_INifaadeazfrzr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|c:\\projet\\c-project\\appelsdoffresapp\\appelsdoffresapp\\models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|solutionrelative:appelsdoffresapp\\models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|c:\\projet\\c-project\\appelsdoffresapp\\appelsdoffresapp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|solutionrelative:appelsdoffresapp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|c:\\projet\\c-project\\appelsdoffresapp\\appelsdoffresapp\\models\\documents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|solutionrelative:appelsdoffresapp\\models\\documents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|c:\\projet\\c-project\\appelsdoffresapp\\appelsdoffresapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|solutionrelative:appelsdoffresapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|c:\\projet\\c-project\\appelsdoffresapp\\appelsdoffresapp\\viewmodels\\assigntendersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|solutionrelative:appelsdoffresapp\\viewmodels\\assigntendersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|c:\\projet\\c-project\\appelsdoffresapp\\appelsdoffresapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|solutionrelative:appelsdoffresapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|c:\\projet\\c-project\\appelsdoffresapp\\appelsdoffresapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|solutionrelative:appelsdoffresapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|c:\\projet\\c-project\\appelsdoffresapp\\appelsdoffresapp\\data\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08417D0-1893-42E2-BD72-B1673ADC3904}|AppelsDOffresApp\\AppelsDOffresApp.csproj|solutionrelative:appelsdoffresapp\\data\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Views\\PublicChat\\Index.cshtml",
+              "RelativeDocumentMoniker": "AppelsDOffresApp\\Views\\PublicChat\\Index.cshtml",
+              "ToolTip": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Views\\PublicChat\\Index.cshtml",
+              "RelativeToolTip": "AppelsDOffresApp\\Views\\PublicChat\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T15:19:47.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PrivateChatController.cs",
+              "DocumentMoniker": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Controllers\\PrivateChatController.cs",
+              "RelativeDocumentMoniker": "AppelsDOffresApp\\Controllers\\PrivateChatController.cs",
+              "ToolTip": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Controllers\\PrivateChatController.cs",
+              "RelativeToolTip": "AppelsDOffresApp\\Controllers\\PrivateChatController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T14:00:20.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "AppelsDOffresApp\\Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "AppelsDOffresApp\\Hubs\\ChatHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T14:00:10.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "AppelsDOffresApp\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "AppelsDOffresApp\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-29T13:55:38.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PrivateChat.cshtml",
+              "DocumentMoniker": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Views\\PrivateChat\\PrivateChat.cshtml",
+              "RelativeDocumentMoniker": "AppelsDOffresApp\\Views\\PrivateChat\\PrivateChat.cshtml",
+              "ToolTip": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Views\\PrivateChat\\PrivateChat.cshtml",
+              "RelativeToolTip": "AppelsDOffresApp\\Views\\PrivateChat\\PrivateChat.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T13:39:24.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Views\\PrivateChat\\Index.cshtml",
+              "RelativeDocumentMoniker": "AppelsDOffresApp\\Views\\PrivateChat\\Index.cshtml",
+              "ToolTip": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Views\\PrivateChat\\Index.cshtml",
+              "RelativeToolTip": "AppelsDOffresApp\\Views\\PrivateChat\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T13:39:21.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UtilisateurController.cs",
+              "DocumentMoniker": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Controllers\\UtilisateurController.cs",
+              "RelativeDocumentMoniker": "AppelsDOffresApp\\Controllers\\UtilisateurController.cs",
+              "ToolTip": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Controllers\\UtilisateurController.cs",
+              "RelativeToolTip": "AppelsDOffresApp\\Controllers\\UtilisateurController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T13:34:43.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20240829131747_INifaadeazfrzrkhjvgh.cs",
+              "DocumentMoniker": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Migrations\\20240829131747_INifaadeazfrzrkhjvgh.cs",
+              "RelativeDocumentMoniker": "AppelsDOffresApp\\Migrations\\20240829131747_INifaadeazfrzrkhjvgh.cs",
+              "ToolTip": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Migrations\\20240829131747_INifaadeazfrzrkhjvgh.cs",
+              "RelativeToolTip": "AppelsDOffresApp\\Migrations\\20240829131747_INifaadeazfrzrkhjvgh.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T13:17:47.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppelOffreViewModel.cs",
+              "DocumentMoniker": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\ViewModels\\AppelOffreViewModel.cs",
+              "RelativeDocumentMoniker": "AppelsDOffresApp\\ViewModels\\AppelOffreViewModel.cs",
+              "ToolTip": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\ViewModels\\AppelOffreViewModel.cs",
+              "RelativeToolTip": "AppelsDOffresApp\\ViewModels\\AppelOffreViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T13:15:43.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20240829125859_INifaadeazfrzr.cs",
+              "DocumentMoniker": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Migrations\\20240829125859_INifaadeazfrzr.cs",
+              "RelativeDocumentMoniker": "AppelsDOffresApp\\Migrations\\20240829125859_INifaadeazfrzr.cs",
+              "ToolTip": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Migrations\\20240829125859_INifaadeazfrzr.cs",
+              "RelativeToolTip": "AppelsDOffresApp\\Migrations\\20240829125859_INifaadeazfrzr.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T12:58:59.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "AppelsDOffresApp\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "AppelsDOffresApp\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T12:36:48.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Documents.cs",
+              "DocumentMoniker": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Models\\Documents.cs",
+              "RelativeDocumentMoniker": "AppelsDOffresApp\\Models\\Documents.cs",
+              "ToolTip": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Models\\Documents.cs",
+              "RelativeToolTip": "AppelsDOffresApp\\Models\\Documents.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T12:19:26.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Program.cs",
+              "RelativeDocumentMoniker": "AppelsDOffresApp\\Program.cs",
+              "ToolTip": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Program.cs",
+              "RelativeToolTip": "AppelsDOffresApp\\Program.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T12:07:30.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AssignTendersViewModel.cs",
+              "DocumentMoniker": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\ViewModels\\AssignTendersViewModel.cs",
+              "RelativeDocumentMoniker": "AppelsDOffresApp\\ViewModels\\AssignTendersViewModel.cs",
+              "ToolTip": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\ViewModels\\AssignTendersViewModel.cs",
+              "RelativeToolTip": "AppelsDOffresApp\\ViewModels\\AssignTendersViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T15:47:41.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Views\\AppelOffre\\Index.cshtml",
+              "RelativeDocumentMoniker": "AppelsDOffresApp\\Views\\AppelOffre\\Index.cshtml",
+              "ToolTip": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Views\\AppelOffre\\Index.cshtml",
+              "RelativeToolTip": "AppelsDOffresApp\\Views\\AppelOffre\\Index.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-28T13:55:00.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AssignTenders.cshtml",
+              "DocumentMoniker": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Views\\AppelOffre\\AssignTenders.cshtml",
+              "RelativeDocumentMoniker": "AppelsDOffresApp\\Views\\AppelOffre\\AssignTenders.cshtml",
+              "ToolTip": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Views\\AppelOffre\\AssignTenders.cshtml",
+              "RelativeToolTip": "AppelsDOffresApp\\Views\\AppelOffre\\AssignTenders.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-28T13:53:39.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Views\\AppelOffre\\Create.cshtml",
+              "RelativeDocumentMoniker": "AppelsDOffresApp\\Views\\AppelOffre\\Create.cshtml",
+              "ToolTip": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Views\\AppelOffre\\Create.cshtml",
+              "RelativeToolTip": "AppelsDOffresApp\\Views\\AppelOffre\\Create.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwC4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-27T17:51:49.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Utilisateur.cs",
+              "DocumentMoniker": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Models\\Utilisateur.cs",
+              "RelativeDocumentMoniker": "AppelsDOffresApp\\Models\\Utilisateur.cs",
+              "ToolTip": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Models\\Utilisateur.cs",
+              "RelativeToolTip": "AppelsDOffresApp\\Models\\Utilisateur.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T17:40:28.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AppelsDOffresApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AppelsDOffresApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAowGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-27T13:42:18.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AppelsDOffresApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AppelsDOffresApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-27T13:27:09.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AppelOffre.cs",
+              "DocumentMoniker": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Models\\AppelOffre.cs",
+              "RelativeDocumentMoniker": "AppelsDOffresApp\\Models\\AppelOffre.cs",
+              "ToolTip": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Models\\AppelOffre.cs",
+              "RelativeToolTip": "AppelsDOffresApp\\Models\\AppelOffre.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwCEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T12:40:53.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MyTenders.cshtml",
+              "DocumentMoniker": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Views\\Utilisateur\\MyTenders.cshtml",
+              "RelativeDocumentMoniker": "AppelsDOffresApp\\Views\\Utilisateur\\MyTenders.cshtml",
+              "ToolTip": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Views\\Utilisateur\\MyTenders.cshtml",
+              "RelativeToolTip": "AppelsDOffresApp\\Views\\Utilisateur\\MyTenders.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-27T12:38:34.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Data\\Role.cs",
+              "RelativeDocumentMoniker": "AppelsDOffresApp\\Data\\Role.cs",
+              "ToolTip": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Data\\Role.cs",
+              "RelativeToolTip": "AppelsDOffresApp\\Data\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T18:07:07.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppelOffreController.cs",
+              "DocumentMoniker": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Controllers\\AppelOffreController.cs",
+              "RelativeDocumentMoniker": "AppelsDOffresApp\\Controllers\\AppelOffreController.cs",
+              "ToolTip": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Controllers\\AppelOffreController.cs",
+              "RelativeToolTip": "AppelsDOffresApp\\Controllers\\AppelOffreController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAA3wEEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T18:06:20.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "AppelsDOffresApp\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\projet\\c-project\\AppelsDOffresApp\\AppelsDOffresApp\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "AppelsDOffresApp\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAmwB4AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T13:50:06.776Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

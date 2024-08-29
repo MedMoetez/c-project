@@ -18,6 +18,38 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/projet/c-project/AppelsDOffresApp/AppelsDOffresApp/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projet/c-project/AppelsDOffresApp/AppelsDOffresApp/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projet/c-project/AppelsDOffresApp/AppelsDOffresApp/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projet/c-project/AppelsDOffresApp/AppelsDOffresApp/Views/Admin/ManageRoles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlUm9sZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projet/c-project/AppelsDOffresApp/AppelsDOffresApp/Views/Admin/ManageUserRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlVXNlclJvbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projet/c-project/AppelsDOffresApp/AppelsDOffresApp/Views/Admin/ManageUserRoles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlVXNlclJvbGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projet/c-project/AppelsDOffresApp/AppelsDOffresApp/Views/Admin/ManageUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlVXNlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projet/c-project/AppelsDOffresApp/AppelsDOffresApp/Views/AppelOffre/AssignTenders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwZWxPZmZyZVxBc3NpZ25UZW5kZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/projet/c-project/AppelsDOffresApp/AppelsDOffresApp/Views/AppelOffre/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwZWxPZmZyZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -42,6 +74,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdW1lbnRzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/projet/c-project/AppelsDOffresApp/AppelsDOffresApp/Views/Documents/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdW1lbnRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/projet/c-project/AppelsDOffresApp/AppelsDOffresApp/Views/Documents/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdW1lbnRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -54,20 +90,36 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/projet/c-project/AppelsDOffresApp/AppelsDOffresApp/Views/Rappel/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFwcGVsXEluZGV4LmNzaHRtbA==
+[C:/projet/c-project/AppelsDOffresApp/AppelsDOffresApp/Views/PrivateChat/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpdmF0ZUNoYXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projet/c-project/AppelsDOffresApp/AppelsDOffresApp/Views/PrivateChat/PrivateChat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpdmF0ZUNoYXRcUHJpdmF0ZUNoYXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projet/c-project/AppelsDOffresApp/AppelsDOffresApp/Views/PublicChat/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVibGljQ2hhdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projet/c-project/AppelsDOffresApp/AppelsDOffresApp/Views/Shared/Chat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENoYXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/projet/c-project/AppelsDOffresApp/AppelsDOffresApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/projet/c-project/AppelsDOffresApp/AppelsDOffresApp/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/projet/c-project/AppelsDOffresApp/AppelsDOffresApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/projet/c-project/AppelsDOffresApp/AppelsDOffresApp/Views/Utilisateur/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXRpbGlzYXRldXJcSW5kZXguY3NodG1s
+[C:/projet/c-project/AppelsDOffresApp/AppelsDOffresApp/Views/Utilisateur/MyTenders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXRpbGlzYXRldXJcTXlUZW5kZXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/projet/c-project/AppelsDOffresApp/AppelsDOffresApp/Views/_ViewImports.cshtml]

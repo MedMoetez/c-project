@@ -1,5 +1,3 @@
-C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp\bin\Debug\net8.0\appsettings.Development.json
-C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp\bin\Debug\net8.0\appsettings.json
 C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp\bin\Debug\net8.0\AppelsDOffresApp.staticwebassets.runtime.json
 C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp\bin\Debug\net8.0\AppelsDOffresApp.exe
 C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp\bin\Debug\net8.0\AppelsDOffresApp.deps.json
@@ -67,7 +65,6 @@ C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp\bin\Debug\net8.0\System.Me
 C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp\bin\Debug\net8.0\System.Runtime.Caching.dll
 C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp\bin\Debug\net8.0\System.Text.Json.dll
 C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp\bin\Debug\net8.0\System.Windows.Extensions.dll
 C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
@@ -135,3 +132,20 @@ C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp\bin\Debug\net8.0\runtimes\
 C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp\obj\Debug\net8.0\AppelsDOffresApp.csproj.AssemblyReference.cache
 C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp\obj\Debug\net8.0\AppelsDO.354A01F4.Up2Date
+C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp\obj\Debug\net8.0\AppelsDOffresApp.sourcelink.json
+C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp\bin\Debug\net8.0\appsettings.json
+C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp\obj\Debug\net8.0\AppelsDOffresApp.MvcApplicationPartsAssemblyInfo.cs
+C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp\bin\Debug\net8.0\MailKit.dll
+C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp\bin\Debug\net8.0\MimeKit.dll
+C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
+C:\projet\c-project\AppelsDOffresApp\AppelsDOffresApp\bin\Debug\net8.0\Microsoft.AspNet.Identity.Core.dll

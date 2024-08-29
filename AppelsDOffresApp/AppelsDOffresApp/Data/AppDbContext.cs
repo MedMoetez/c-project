@@ -1,44 +1,43 @@
-﻿using AppelsDOffresApp.Models;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using System.Reflection.Metadata;
+using AppelsDOffresApp.Models;
+using Microsoft.AspNetCore.Identity;
+using System.Reflection.Emit;
 
-namespace AppelsDOffresApp.Data
+public class AppDbContext : IdentityDbContext<Utilisateur>
 {
-    public class AppDbContext : DbContext
+    public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
     {
-        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
-        {
-        }
-        //public DbSet<Utilisateur> Utilisateurs { get; set; }
-        public DbSet<AppelOffre> AppelsDOffres { get; set; }
-        public DbSet<Documents> Documents { get; set; }
-       // public DbSet<Rappel> Rappels { get; set; }
-        //public DbSet<AppelDOffreCollaborateur> AppelDOffreCollaborateurs { get; set; }
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-           /* base.OnModelCreating(modelBuilder);
-
-            // Configuration pour AppelOffre et Utilisateur relation plusieurs-à-plusieurs
-            modelBuilder.Entity<AppelDOffreCollaborateur>()
-                .HasKey(ac => new { ac.AppelDOffreId, ac.UtilisateurId });
-
-            modelBuilder.Entity<AppelDOffreCollaborateur>()
-                .HasOne(ac => ac.AppelDOffre)
-                .WithMany(a => a.Collaborateurs)
-                .HasForeignKey(ac => ac.AppelDOffreId);
-
-            modelBuilder.Entity<AppelDOffreCollaborateur>()
-                .HasOne(ac => ac.Utilisateur)
-                .WithMany()
-                .HasForeignKey(ac => ac.UtilisateurId);
-            
-            // Configuration pour la relation AppelDOffre -> Utilisateur (Gestionnaire)
-            modelBuilder.Entity<AppelOffre>()
-                .HasOne(a => a.Gestionnaire)
-                .WithMany()
-                .HasForeignKey(a => a.GestionnaireId)
-                .OnDelete(DeleteBehavior.Restrict);*/
-        }
     }
+    public DbSet<ChatMessage> ChatMessages { get; set; }
+    public DbSet<AppelOffre> AppelsDOffres { get; set; }
+    public DbSet<Utilisateur> Utilisateurs { get; set; }
+    public DbSet<Documents> Documents { get; set; }
+
+    protected override void OnModelCreating(ModelBuilder builder)
+    {
+        base.OnModelCreating(builder);
+
+        // Configure the relationship between ChatMessage and Utilisateur for the sender
+        builder.Entity<ChatMessage>()
+            .HasOne<Utilisateur>(cm => cm.FromUser)
+            .WithMany(u => u.SentMessages)
+            .HasForeignKey(cm => cm.FromUserId)
+            .OnDelete(DeleteBehavior.Restrict);
+
+        // Configure the relationship between ChatMessage and Utilisateur for the recipient
+        builder.Entity<ChatMessage>()
+            .HasOne<Utilisateur>(cm => cm.ToUser)
+            .WithMany(u => u.ReceivedMessages)
+            .HasForeignKey(cm => cm.ToUserId)
+            .OnDelete(DeleteBehavior.Restrict);
+
+        builder.Entity<AppelOffre>()
+           .HasOne(a => a.AssignedUser)
+           .WithMany(u => u.AppelsDOffres)
+           .HasForeignKey(a => a.AssignedUserId)
+           .OnDelete(DeleteBehavior.SetNull); 
+    }
+
+
 }

@@ -1,4 +1,4 @@
-﻿namespace AppelsDOffresApp.Data
+﻿namespace AppelsDOffresApp.ViewModels
 {
     public enum AppelOffreStatus
     {

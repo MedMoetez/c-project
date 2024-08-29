@@ -25,16 +25,37 @@
     <tbody>
         @foreach (var item in Model)
         {
-            <tr>
+            var cssClass = "";
+            var statusBadge = "";
+
+            if (item.Date < DateTime.Now)
+            {
+                cssClass = "table-danger"; // Red for overdue
+                statusBadge = "<span class='badge badge-danger'>Overdue</span>";
+            }
+            else if (item.Date <= DateTime.Now.AddDays(7))
+            {
+                cssClass = "table-warning"; // Orange for due soon
+                statusBadge = "<span class='badge badge-warning'>Due Soon</span>";
+            }
+            else
+            {
+                cssClass = "table-success"; // Green for on time
+                statusBadge = "<span class='badge badge-success'>On Time</span>";
+            }
+
+            <tr class="@cssClass">
                 <td>@item.Id</td>
                 <td>@item.Numero</td>
-                <td>@item.Nom</td>
+                <td>@item.Nom @Html.Raw(statusBadge)</td>
                 <td>@item.Date.ToShortDateString()</td>
                 <td>@item.Description</td>
                 <td>@item.Status</td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">Edit</a>
                     <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                    <a asp-action="AssignTenders">Assign Tenders</a>
+
                 </td>
             </tr>
         }

@@ -1,0 +1,33 @@
+﻿@model IEnumerable<AppelsDOffresApp.Models.ChatMessage>
+
+<h2>Public Chat</h2>
+
+<div id="chatWindow" style="padding: 10px; border: 1px solid #ccc; height: 400px; overflow-y: scroll;">
+    @foreach (var message in Model)
+    {
+        <div style="margin-bottom: 5px;">
+            <strong>@message.UserName</strong>: @message.Text <small>(@message.When.ToString("HH:mm"))</small>
+        </div>
+    }
+</div>
+
+<form id="messageForm" style="margin-top: 10px;" method="post" asp-action="SendMessage">
+    <input type="text" id="messageText" name="messageText" placeholder="Type a message..." style="width: 80%;" />
+    <button type="submit" style="width: 18%;">Send</button>
+</form>
+
+@section Scripts {
+    <script type="text/javascript">
+        var connection = new signalR.HubConnectionBuilder().withUrl("/chathub").build();
+
+        connection.on("ReceiveMessage", function (message) {
+            var chatWindow = document.getElementById("chatWindow");
+            chatWindow.innerHTML += "<div><strong>" + message.userName + "</strong>: " + message.text + " <small>(" + new Date(message.when).toLocaleTimeString() + ")</small></div>";
+            chatWindow.scrollTop = chatWindow.scrollHeight;
+        });
+
+        connection.start().catch(function (err) {
+            return console.error(err.toString());
+        });
+    </script>
+}

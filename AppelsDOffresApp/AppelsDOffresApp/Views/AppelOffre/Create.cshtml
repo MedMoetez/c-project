@@ -40,6 +40,14 @@
                 <span asp-validation-for="Status" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="AssignedUserId" class="control-label">Assigned User</label>
+                <select asp-for="AssignedUserId" class="form-control" asp-items="ViewBag.Users">
+                    <option value="">-- Select User --</option>
+                </select>
+            </div>
+
+
+            <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
@@ -49,3 +57,8 @@
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

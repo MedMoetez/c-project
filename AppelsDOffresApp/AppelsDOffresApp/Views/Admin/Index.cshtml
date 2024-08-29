@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<h2>Admin Dashboard</h2>
+
+<p>Bienvenue dans le tableau de bord d'administration. Choisissez une option ci-dessous :</p>
+<p><a asp-action="ManageUsers" asp-controller="Admin" class="btn btn-primary">Manage Users</a></p>
+
+<div class="list-group">
+    <a href="@Url.Action("ManageRoles", "Admin")" class="list-group-item list-group-item-action">
+        Gérer les rôles
+    </a>
+    <a href="@Url.Action("ManageUserRoles", "Admin")" class="list-group-item list-group-item-action">
+        Gérer les rôles des utilisateurs
+    </a>
+</div>

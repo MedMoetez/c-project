@@ -1,15 +1,16 @@
-using AppelsDOffresApp.Data;
+using AppelsDOffresApp.ViewModels;
 using AppelsDOffresApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-
+using Microsoft.AspNetCore.Authorization;
 namespace AppelsDOffresApp.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
-        private readonly Data.AppDbContext _context;
+        private readonly AppDbContext _context;
 
-        public HomeController(Data.AppDbContext context)
+        public HomeController(AppDbContext context)
         {
             _context = context;
         }
